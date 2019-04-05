@@ -1,0 +1,1 @@
+Redirect 301 google.com http://www.google.com
