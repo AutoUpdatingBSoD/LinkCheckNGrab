@@ -13,7 +13,7 @@
  redirected (Source URL).                                                     
                                                                               
 - The program writes out the results as a CSV file. Three columns get written: 
-    the Source URL, the Destination URL, and the Result.                       
+    the Source URL, the Destination URL, and the result.                       
                                                                                
 - The program is fed a file containing redirects in a loop until it reaches    
   the end of the file.                                                         
