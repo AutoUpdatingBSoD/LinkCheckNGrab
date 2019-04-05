@@ -83,5 +83,5 @@
                 
               - You will have to edit the code to get it working the way you   
                 want. You should just have to edit the URL variable(s),        
-                however. This can easily be set up in the linux bash script.   
+                however. This can easily be set up in the Linux bash script.   
 --------------------------------------------------------------------------------
