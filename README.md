@@ -1,12 +1,12 @@
 # LinkCheckNGrab
 --------------------------------------------------------------------------------
--                                   README                                     -
+                                    README                                     
 --------------------------------------------------------------------------------                                                  
 - 09/29/2018                                                                   
 - Automated Link Check and Grab                                                
 - LinkCheckNGrab.sh                                                            
 --------------------------------------------------------------------------------
--                                    ABOUT                                     -
+                                     ABOUT                                     
 --------------------------------------------------------------------------------
 - This program is designed to compare URLs expected from redirects             
  (Destination URL) with the URLs that result from running the link to be      
@@ -27,7 +27,7 @@
     - ExternalLinkCheckNGrabWRegex: For retrieving external redirect links    
       with regex.							       -
 --------------------------------------------------------------------------------
--                                  PREREQUISITES                               -
+                                   PREREQUISITES                               
 --------------------------------------------------------------------------------
 - Installed Programs:                                                          
    - curl - Red Hat's default terminal-based web browser.                      
@@ -52,7 +52,7 @@
                   from the regex portion of each source or the code will not   
                   work.                                                        
 --------------------------------------------------------------------------------
--                                INSTALL AND RUN                               -
+                                 INSTALL AND RUN                               
 --------------------------------------------------------------------------------
 - Installation Steps:                                                          
               - Install prerequisite programs with your OS's installation      
@@ -66,7 +66,7 @@
                 shell output.                                                  
               - run with ./LinkCheckNGrab.sh [-h || --help] if you need help.  
 --------------------------------------------------------------------------------
--                                     NOTES                                    -
+                                      NOTES                        
 --------------------------------------------------------------------------------
               - If the two URLs are an exact match, then the result column     
                 gets written as an empty string. Since nothing else needs to  
