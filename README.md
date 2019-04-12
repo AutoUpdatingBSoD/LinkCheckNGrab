@@ -17,15 +17,15 @@
                                                                                
 - The program is fed a file containing redirects in a loop until it reaches    
   the end of the file.                                                         
-									       -
-- The program has 4 versions:						       -
+									       
+- The program has 4 versions:						       
     - LinkCheckNGrab: For retrieving internal redirect links without regex.   
     - LinkCheckNGrabWRegex: For retrieving internal redirect links with       
-      regex.		                        			       -
+      regex.		                        			       
     - LinkCheckNGrabWRegex: For retrieving external redirect links without    
-      regex.							               -
+      regex.							               
     - ExternalLinkCheckNGrabWRegex: For retrieving external redirect links    
-      with regex.							       -
+      with regex.							       
 --------------------------------------------------------------------------------
                                    PREREQUISITES                               
 --------------------------------------------------------------------------------
