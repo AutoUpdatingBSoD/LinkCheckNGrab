@@ -34,7 +34,7 @@ if [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
 fi
 
 fi 
-readonly prefix="Redirect 301 "
+readonly prefix="RedirectMatch 301 "
 # Save the prefix as a variable to be stripped.
 # the prefix is readonly since it's never written to.
 readonly URL="https://www.google.com"
@@ -53,14 +53,14 @@ while IFS='' read -r line; do #while hasnextline
     # paste url to variable
     if [[ "$path" = "$dest" ]]; then # If the URLs are an exact match
     {
-        echo "$URL$source, $dest, " >> "/outfiles/external-conf.csv"
+        echo "$URL$source, $dest, " >> "/outfiles/external-match.csv"
     }
     else
     {
-        echo "$URL$source, $dest, $path" >> "/outfiles/external-conf.csv"
+        echo "$URL$source, $dest, $path" >> "/outfiles/external-match.csv"
     }
     fi;
     sleep 5
     # sleep to give curl time to reload.
 }
-done < "exttext.txt" # file to loop through
+done < "extmatch.txt" # file to loop through
