@@ -1,32 +1,22 @@
-################################
-# 08/06/2018 - Michael Hammond #
-# Automated Link Check-n-Grab  #
-# LinkCheckNGrab.sh            #
-# Web and Mobile Technologies  #
-# Radford University           #
-#                              #
-# This is a Linux shell script #
-# intended to be run in a      #
-# Virtual Machine while        #
-# leaving the guest machine    #
-# alone.                       #              
-#                              #
-# This script feeds redirects  #
-# from a file to the Firefox   #
-# Browser in a loop and stores #
-# the results of the source    #
-# URLs provided in a csv file. #
-#                              #
-# The Linux machine running    #
-# this must have xdotool,      #
-# MySql, xclip, wmctrl, and    #
-# the Firefox browser          #
-# installed.                   #
-#                              #
-# For more information, refer  #
-# to the attached README       #
-# document.                    #
-################################
+###################################
+# 08/06/2018 - Michael Hammond    #
+# Automated Link Check-n-Grab     #
+# ExternalLinkCheckNGrab.sh       #
+#                                 #
+# This script feeds redirects     #
+# from a file to the curl CMD     #
+# browser in a loop and stores    #
+# the results of the source       #
+# URLs provided in a csv file.    #
+#                                 #
+# The Linux machine running       #
+# this must have cut, and the     #
+# curl cmd browser installed.     #
+#                                 #
+# For more information, refer     #
+# to the attached README          #
+# document.                       #
+###################################
 
 if [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
     less -FX "README.txt" # display README for help.
