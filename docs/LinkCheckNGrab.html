@@ -1,0 +1,390 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!--Name: Michael Hammond;
+  File Name: Portfolio.html;
+-->
+<style>
+* {box-sizing: border-box}
+
+html, body, span, object, iframe, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    vertical-align: baseline;
+
+    font-family: monospace;
+    background: transparent;
+}
+h1, h2, h3, h4, h5, h6
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+
+    font-family: monospace;
+    background: transparent;  
+}
+p
+{
+margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    font-size: 8px;
+    font-family: monospace;
+    background: transparent;
+}
+#block
+{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #4CAF50;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+div 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    vertical-align: baseline;
+
+    font-family: monospace;
+    background: transparent;
+}
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    text-align: center;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 15px;
+    width: 10%;
+    height:5%;
+}
+#contents {
+    left: 40%;
+    right: 40%;
+}
+#contents2 {
+    left: 50%;
+    right: 50%;
+}
+#contents3 {
+    left: 60%;
+    right: 50%;
+}
+#defaultOpen {
+    left: 30%;
+    right: 30%;
+}
+
+#partitionone
+{
+    background-image: url("Sasha_Matrix.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:100%;
+    width: 100%;
+    /*overflow: hidden; */
+}  
+#image
+{
+    display: inline-block;
+    padding: 2px;
+    background-color: white;
+    overflow: hidden;
+    width: 15%;
+    height: 25%;
+    position:absolute;
+    top: 10%;
+    left: 5%;
+    right: auto;
+    bottom: auto;
+    background-image: url("Headshot.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border: solid;    border-color: black;
+    font-family: monospace;
+    -webkit-box-shadow: 0px 16px 5px 0px rgba(0,0,0,0.16);
+	-moz-box-shadow: 0px 16px 5px 0px rgba(0,0,0,0.16);	box-shadow: -9px 15px 5px 0px rgba(0,0,0,0.16);
+}
+#contacts
+{
+    display: inline-block;
+    padding: 2px;
+    background-color: white;
+    overflow: hidden;
+    position:absolute;
+    border: solid;
+    border-color: black;
+    font-family: monospace;
+    top: 40%;
+    bottom: auto;
+    right: auto;
+    font-size: 50%;
+    left: 5%;
+    -webkit-box-shadow: 0px 16px 5px 0px rgba(0,0,0,0.16);
+	-moz-box-shadow: 0px 16px 5px 0px rgba(0,0,0,0.16);
+	box-shadow: -9px 15px 5px 0px rgba(0,0,0,0.16);
+} 
+#gitHub
+{
+    display: inline-block;
+    padding: 2px;
+    background-color: white;
+    overflow: hidden;
+    position:absolute;
+    border: solid;
+    border-color: black;
+    font-family: monospace;
+    top: 40%;
+    bottom: auto;
+    right: auto;
+    font-size: 75%;
+    left: 21.5%;
+    -webkit-box-shadow: 0px 16px 5px 0px rgba(0,0,0,0.16);
+	-moz-box-shadow: 0px 16px 5px 0px rgba(0,0,0,0.16);
+	box-shadow: -9px 15px 5px 0px rgba(0,0,0,0.16);
+} 
+.tablink:hover 
+{
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.UnixProj 
+{
+    left: 5%;
+    top: 10%;
+    background-image: url("terminal.png"); 
+}      
+.ReCheck 
+{
+    left: 16%;
+    top: 10%;
+    background-image: url("Website Checker.png"); 
+}
+.VendingProj 
+{
+    left: 27%;
+    top: 10%;
+    background-image: url("Vending Machine Sim.png"); 
+}
+.AnimationProj 
+{
+    left: 38%;
+    top: 10%;
+    background-image: url("Animation.png"); 
+}
+.Access
+{
+    left: 49%;
+    top: 10%;
+    background-image: url("database.png"); 
+}
+#projectBox {
+    height:8%;
+    width: 8%;
+    font-family: monospace;
+    -webkit-box-shadow: 0px 16px 5px 0px rgba(0,0,0,0.16);
+	-moz-box-shadow: 0px 16px 5px 0px rgba(0,0,0,0.16);
+	box-shadow: -9px 15px 5px 0px rgba(0,0,0,0.16);
+    outline:none;
+    border: none;
+    position: absolute;
+    bottom: auto;
+    text-align: center;
+    float: left;
+    font-size: 50%;
+    color:black;
+}
+.tabcontent {
+    height:75%;
+    width:75%;
+    font-family: monospace;
+    -webkit-box-shadow: 0px 16px 5px 0px rgba(0,0,0,0.16);
+	-moz-box-shadow: 0px 16px 5px 0px rgba(0,0,0,0.16);
+	box-shadow: -9px 15px 5px 0px rgba(0,0,0,0.16);
+    outline:none;
+    border: none;
+    position: absolute;
+    bottom: auto;
+    color: white;
+    display: none;
+    top: 5%;
+    left: 12.5%;
+    padding: 100px 20px;
+    
+}
+.unixBox{
+    left: 5%;
+    right: 12.5%;
+    top: 32.5%;
+    background-color: #22b8ff;
+}
+#projbutton
+{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    outline:none;
+    border: none;
+    position: absolute;
+
+    bottom: auto;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 90% 90%;
+    background-position: center;
+    width: 8%;
+    height: 16%;
+    
+}
+#projbutton:hover
+{
+    background-color: #999;  
+    -webkit-box-shadow: 0px 16px 5px 0px rgba(0,0,0,0.16);
+	-moz-box-shadow: 0px 16px 5px 0px rgba(0,0,0,0.16);
+	box-shadow: -9px 15px 5px 0px rgba(0,0,0,0.16);
+    
+}
+#WhyThisProject {background-color: #000000;}
+#HowDoesItWork {background-color: #d4a400;
+    color: black;}
+#WhereCanIGet {background-color: #cccccc;
+color: black;}
+#WhoMadeThis {background-color: #22b8ff;
+color: black;}
+</style>
+
+</head>
+<body>
+<button class="tablink" id="defaultOpen"onclick="openPage('WhyThisProject', this, '#000000')">Why?</button>
+<button class="tablink" id="contents" onclick="openPage('HowDoesItWork', this, '#d4a400')">How?</button>
+<button class="tablink" id="contents2"onclick="openPage('WhereCanIGet', this, '#cccccc')">Where?</button>
+<button class="tablink" id="contents3"onclick="openPage('WhoMadeThis', this, '#22b8ff')">Who?</button>
+
+
+<div id="WhyThisProject" class="tabcontent">
+  <p><center><h4>Why Does LinkCheckNGrab Exist?</h4></center>
+        <br>
+        <h6>This project came out of the need to filter almost 1000 (potentially) dead redirects, by hand if needed.</h6>
+        <br> 
+        <ul>
+        <li>This script is intended to save the user's time, both short and long term.</li>
+        <br>
+        <li>I wouldn't know a link was dead unless I clicked it.</li>
+        <br>
+        <li>The final script saved a lot of time for the team who needed this, as they did not want to check that <br>many dead redirects to see which ones were dead.</li>
+        <br><li>This script greatly reduced that number to a more reasonable value.</li>
+        </ul>
+        <br> <h6>To find out more about LinkCheckNGrab, click on the links above!</h6>
+        <br>
+      </p>
+</div>
+
+<div id="WhereCanIGet" class="tabcontent">
+  <p>
+      <center><h3>Where can I get this work?</h3></center>
+      <p id="gitHub">
+          You can find the work <a href="https://github.com/AutoUpdatingBSoD/LinkCheckNGrab">on this GitHub Page</a>.
+          <br>
+          <br>
+          I'm also considering putting a web link so that you can <br>try this project out without downloading anything
+      </p>
+</p> 
+</div>
+
+<div id="WhoMadeThis" class="tabcontent">
+  <center><h3>Who made this work?</h3></center>
+  <p id="contacts">
+      Address:&nbsp;&nbsp;&nbsp;907 Walker Drive, Radford, VA, 24141
+      <br>
+      Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mhammond9@radford.edu
+      <br>
+      GitHub:&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/AutoUpdatingBSoD">AutoUpdatingBSoD</a><br>
+      LinkedIn:&nbsp;&nbsp;<a href="https://www.linkedin.com/in/michael-hammond-b4152715a/">Michael Hammond</a><br>
+      Cell:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(540) 818-8174 <br>
+      I prefer being contacted by email, GitHub, or LinkedIn. <br>
+       This is to minimize the volume of spammers I recieve. <br>
+  </p>
+  <p id="image"></p>
+</div>
+
+<div id="HowDoesItWork" class="tabcontent">
+   <p><center><h5>How does this project work?</h5></center>
+    <br> 
+    <ul>
+    <li>You supply the input filename, output filename, URL for the root of your website (if needed, can be ""<br>if you don't need it), and redirect prefix (i.e. Redirect 301)
+    in the LinkCheckNGrab.sh file.</li>
+    <br>
+    <li>There's already different versions of LinkCheckNGrab to handle external redirects and regex paths<br>(see the GitHub repository under 'Where?')</li>
+    <br>
+    <li>Make sure each redirect is in the format of the configuration input filename (Assuming you're using internal redirects, no regex).</li>
+    <br><li>Then, just make the file executable with chmod +x LinkCheckNGrab.sh, and run in a Linux environment with ./LinkCheckNGrab.sh</li>
+    </ul>
+    <br>
+  </p>
+</div>
+<p id = "partitionone">  
+                    </p>
+                    <script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>    <script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>                 
+</body>
+</html> 
