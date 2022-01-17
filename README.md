@@ -1,8 +1,8 @@
+<center>
 ---
-
-                                    <center>README</center>   
-				    
+                                    README 				    
 ---
+</center>
 
 - 09/29/2018                                                                   
 - Automated Dead Redirect Checker                                                
