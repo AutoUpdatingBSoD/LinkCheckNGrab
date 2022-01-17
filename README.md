@@ -15,7 +15,7 @@
 - LinkCheckNGrab.sh    
                                                         
 --------------------------------------------------------------------------------
-                                     ABOUT                                     
+<h1 align="center">ABOUT</h1>                                     
 --------------------------------------------------------------------------------
 
 - This program is designed to compare URLs expected from redirects             
