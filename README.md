@@ -3,7 +3,6 @@
 
 
 ---
-
 <h1 align="center">README</h1> 
 
 ---
@@ -14,9 +13,10 @@
 - Automated Dead Redirect Checker                                                
 - LinkCheckNGrab.sh    
                                                         
---------------------------------------------------------------------------------
-<h1 align="center">ABOUT</h1>                                     
---------------------------------------------------------------------------------
+---
+<h1 align="center">ABOUT</h1>      
+
+---
 
 - This program is designed to compare URLs expected from redirects             
  (Destination URL) with the URLs that result from running the link to be      
@@ -37,9 +37,10 @@
     - ExternalLinkCheckNGrabWRegex: For retrieving external redirect links    
       with regex.
       
---------------------------------------------------------------------------------
-                                   PREREQUISITES                               
---------------------------------------------------------------------------------
+---
+<h1 align="center">PREREQUISITES</h1>      
+
+---
 - Installed Programs:                                                          
    - curl - Red Hat's default terminal-based web browser.                      
               - used to load the Source URL, and save result as a variable    
@@ -63,9 +64,10 @@
                   from the regex portion of each source or the code will not   
                   work.    
 		  
---------------------------------------------------------------------------------
-                                 INSTALL AND RUN                               
---------------------------------------------------------------------------------
+---
+<h1 align="center">INSTALL AND RUN</h1>      
+
+---
 - Installation Steps:                                                          
               - Install prerequisite programs with your OS's installation      
                 schema (e.g. sudo yum install curl).                           
@@ -78,9 +80,10 @@
                 shell output.                                                  
               - run with ./LinkCheckNGrab.sh `[-h || --help]` if you need help.  
               
---------------------------------------------------------------------------------
-                                      NOTES                        
---------------------------------------------------------------------------------
+---
+<h1 align="center">NOTES</h1>      
+
+---
 
   - If the two URLs are an exact match, then the result column     
     gets written as an empty string. Since nothing else needs to  
