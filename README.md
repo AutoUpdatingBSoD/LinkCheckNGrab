@@ -22,8 +22,7 @@
 - The program will be able to do three things:
 	- Check for dead redirects - Already possible
 	- Check for duplicate imported files
-	- Check for outdated libraries	
-	- 			       
+	- Check for outdated libraries  
 ---
 <h1 align="center">PREREQUISITES</h1>      
 
