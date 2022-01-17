@@ -1,7 +1,7 @@
 
-<p aligh='center'>
+
 ---
-	README
+<p aligh="center">README
 </p> 
 
 ---
