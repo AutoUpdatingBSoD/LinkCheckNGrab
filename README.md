@@ -1,14 +1,11 @@
 
 #WebServerTherapy
 
----
-
 <p aligh="center">
-	README
-</p> 
-
 ---
-
+	README
+---
+</p> 
 
 
 - 09/29/2018                                                                   
