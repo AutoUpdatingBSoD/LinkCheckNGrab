@@ -1,7 +1,9 @@
-# LinkCheckNGrab
---------------------------------------------------------------------------------
-                                    README                                     
---------------------------------------------------------------------------------                                                  
+---
+
+                                    <center>README</center>   
+				    
+---
+
 - 09/29/2018                                                                   
 - Automated Dead Redirect Checker                                                
 - LinkCheckNGrab.sh    
@@ -9,6 +11,7 @@
 --------------------------------------------------------------------------------
                                      ABOUT                                     
 --------------------------------------------------------------------------------
+
 - This program is designed to compare URLs expected from redirects             
  (Destination URL) with the URLs that result from running the link to be      
  redirected (Source URL).                                                     
@@ -73,18 +76,18 @@
                                       NOTES                        
 --------------------------------------------------------------------------------
 
-              - If the two URLs are an exact match, then the result column     
-                gets written as an empty string. Since nothing else needs to  
-                be done in this case, adding text in this field would only     
-                make the resulting csv less legible.                                                         
-              - If the two URLs don't match exactly, then the URL is saved in  
-                the result column. Even if nothing else needs to be done in    
-                these cases, there's no way around this.
-              - You MUST have a directory for which echo can write the csv     
-                file. otherwise, you'll have to use sudo, which will lose its  
-                usefulness once the machine goes to sleep.                                            
-              - You will have to edit the code to get it working the way you   
-                want. You should just have to edit the URL variable(s),        
-                however. This can easily be set up in the Linux bash script.   
+  - If the two URLs are an exact match, then the result column     
+    gets written as an empty string. Since nothing else needs to  
+    be done in this case, adding text in this field would only     
+    make the resulting csv less legible.                                                         
+  - If the two URLs don't match exactly, then the URL is saved in  
+    the result column. Even if nothing else needs to be done in    
+    these cases, there's no way around this.
+  - You MUST have a directory for which echo can write the csv     
+    file. otherwise, you'll have to use sudo, which will lose its  
+    usefulness once the machine goes to sleep.                                            
+  - You will have to edit the code to get it working the way you   
+    want. You should just have to edit the URL variable(s),        
+    however. This can easily be set up in the Linux bash script.   
 		
 --------------------------------------------------------------------------------
